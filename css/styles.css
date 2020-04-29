@@ -4,18 +4,24 @@ body{
   text-align: center;
   font-family: 'Meriweather',serif;
   color: #40514E;
+  line-height: 2;
 }
 
 h1{
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Special Elite', cursive;
   font-weight: 1000;
   font-size: 5.625rem;
   color: #66BFBF;
 }
+li{
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: left;
+}
 
 img{
-  border-radius: 3px;
+  border-radius: 1px;
 }
 
 p {
@@ -23,9 +29,11 @@ p {
   font-size: 1.5rem;
   font-weight: normal;
   line-height: 2;
+  text-align: left;
 }
 h2{
   color: #66BFBF;
+  font-size: 30px;
 }
 
 h3{
@@ -41,10 +49,14 @@ a{
 a:hover{
   color: #EAF6F6;
 }
+.new:hover{
+  color: #442727;
+}
 .copyright{
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
+  text-align: center;
 }
 
 .middle-container{
@@ -68,8 +80,12 @@ margin: 100px 0;
   text-align: left;
 
 }
+.help{
+  text-align: center;
+}
 .web{
   color : #66BFBF;
+  text-align: center;
 }
 
 .top-container {
@@ -84,16 +100,42 @@ hr {
   border-style: dotted none none;
   border-width: 3px;
 }
+.globe{
+  height: 350px;
+  width: 750px;
+}
 
-.top-cloud{
+.top-bacteria{
 position: absolute;
 top: 50px;
 right: 300px;
+height: 130px;
+width: 130px;
+
 }
-.bottom-cloud{
+.bottom-bacteria{
   position : absolute;
   left: 300px;
   bottom: 300px;
+  height: 130px;
+  width: 130px;
+
+
+}
+.img1{
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 40px;
+}
+.img2{
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right:  40px;
+}
+.ul{
+  margin-left: 40px;
 }
 .me3{
   width: 20%;
@@ -151,4 +193,21 @@ right: 300px;
    -moz-border-radius: 20px;
    border-radius: 20px;
    text-decoration: none;
+}
+.symptoms{
+  background-color: #7ebdb4;
+  width: 50%;
+  height: 80px;
+  padding: auto;
+  margin: 10px auto 10px auto;
+}
+.sym{
+  color: black;
+  font-family: 'Meriweather',serif;
+  margin: -15px;
+}
+.bg{
+  background-color: #E4F9F5;
+  margin-top: -50px;
+  margin-bottom: -200px;
 }
